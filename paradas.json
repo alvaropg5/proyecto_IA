@@ -1,0 +1,538 @@
+{
+  "elements": [
+    {
+      "type": "node",
+      "id": 308516813,
+      "lat": 25.6850601,
+      "lon": -100.3065706,
+      "tags": {
+        "name": "Del Golfo",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308516817,
+      "lat": 25.6869903,
+      "lon": -100.3242354,
+      "tags": {
+        "name": "Central",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520653,
+      "lat": 25.6869288,
+      "lon": -100.3334516,
+      "tags": {
+        "layer": "2",
+        "name": "Edison",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520670,
+      "lat": 25.6919305,
+      "lon": -100.3440963,
+      "tags": {
+        "layer": "2",
+        "name": "Hospital",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520671,
+      "lat": 25.6987491,
+      "lon": -100.3431812,
+      "tags": {
+        "layer": "2",
+        "name": "Simón Bolívar",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520673,
+      "lat": 25.7058311,
+      "lon": -100.3423898,
+      "tags": {
+        "layer": "2",
+        "name": "Mitras",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520674,
+      "lat": 25.7157763,
+      "lon": -100.3424743,
+      "tags": {
+        "layer": "2",
+        "name": "Alfonso Reyes",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520675,
+      "lat": 25.7232808,
+      "lon": -100.3425338,
+      "tags": {
+        "layer": "2",
+        "name": "Penitenciaría",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520684,
+      "lat": 25.7320912,
+      "lon": -100.3472248,
+      "tags": {
+        "layer": "2",
+        "name": "Aztlán",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520692,
+      "lat": 25.7418917,
+      "lon": -100.3549436,
+      "tags": {
+        "layer": "2",
+        "name": "Unidad Modelo",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308520693,
+      "lat": 25.7484133,
+      "lon": -100.3616769,
+      "tags": {
+        "layer": "2",
+        "name": "San Bernabé",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308521283,
+      "lat": 25.6795144,
+      "lon": -100.2454328,
+      "tags": {
+        "layer": "2",
+        "name": "Exposición",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308521285,
+      "lat": 25.6798100,
+      "lon": -100.2522430,
+      "tags": {
+        "layer": "2",
+        "name": "Lerdo de Tejada",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308521293,
+      "lat": 25.6800659,
+      "lon": -100.2641447,
+      "tags": {
+        "layer": "2",
+        "name": "Eloy Cavazos",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308521303,
+      "lat": 25.6832849,
+      "lon": -100.2794542,
+      "tags": {
+        "layer": "2",
+        "name": "Y Griega",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308521309,
+      "lat": 25.6837352,
+      "lon": -100.2881288,
+      "tags": {
+        "layer": "2",
+        "name": "Arena Monterrey",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041599589,
+      "lat": 25.6677490,
+      "lon": -100.3102087,
+      "tags": {
+        "layer": "-2",
+        "name": "General I. Zaragoza",
+        "network": "Líneas 2/3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041599598,
+      "lat": 25.6686077,
+      "lon": -100.3155673,
+      "tags": {
+        "internet_access": "yes",
+        "layer": "-2",
+        "name": "Padre Mier",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041599626,
+      "lat": 25.6722768,
+      "lon": -100.3187897,
+      "tags": {
+        "layer": "-2",
+        "name": "Fundadores",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041599630,
+      "lat": 25.6769996,
+      "lon": -100.3181672,
+      "tags": {
+        "layer": "-2",
+        "name": "Alameda",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041636956,
+      "lat": 25.7398493,
+      "lon": -100.3026342,
+      "tags": {
+        "layer": "2",
+        "name": "Anáhuac",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041636969,
+      "lat": 25.7170416,
+      "lon": -100.3108051,
+      "tags": {
+        "layer": "2",
+        "name": "Niños Heroes",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041636979,
+      "lat": 25.7688063,
+      "lon": -100.2928666,
+      "tags": {
+        "layer": "2",
+        "name": "Sendero",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041636993,
+      "lat": 25.6966407,
+      "lon": -100.3168677,
+      "tags": {
+        "layer": "-2",
+        "name": "General Anaya",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041637014,
+      "lat": 25.7526724,
+      "lon": -100.2980396,
+      "tags": {
+        "layer": "2",
+        "name": "San Nicolás",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041637024,
+      "lat": 25.7080838,
+      "lon": -100.3140539,
+      "tags": {
+        "layer": "-2",
+        "name": "Regina",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041637107,
+      "lat": 25.7593652,
+      "lon": -100.2956475,
+      "tags": {
+        "layer": "2",
+        "name": "Santiago Tapia",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041637116,
+      "lat": 25.7243785,
+      "lon": -100.3082101,
+      "tags": {
+        "layer": "2",
+        "name": "Universidad",
+        "network": "Línea 2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041993397,
+      "lat": 25.7592225,
+      "lon": -100.3684444,
+      "tags": {
+        "name": "Talleres",
+        "network": "Línea 1",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3786396125,
+      "lat": 25.7071884,
+      "lon": -100.2830408,
+      "tags": {
+        "layer": "3",
+        "name": "Los Ángeles",
+        "network": "Linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3788005135,
+      "lat": 25.6783525,
+      "lon": -100.2976026,
+      "tags": {
+        "internet_access": "no",
+        "layer": "3",
+        "name": "Colonia Obrera",
+        "network": "linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3788005136,
+      "lat": 25.6839908,
+      "lon": -100.2968587,
+      "tags": {
+        "name": "Félix U. Gomez",
+        "network": "Líneas 1/3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3788005137,
+      "lat": 25.6899605,
+      "lon": -100.2959802,
+      "tags": {
+        "name": "Metalúrgicos",
+        "network": "Linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3788005139,
+      "lat": 25.7003325,
+      "lon": -100.2927707,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Colonia Moderna",
+        "network": "Linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3788005141,
+      "lat": 25.7139752,
+      "lon": -100.2732251,
+      "tags": {
+        "layer": "3",
+        "name": "Hospital Metropolitano",
+        "network": "Linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4366974201,
+      "lat": 25.7032854,
+      "lon": -100.2885553,
+      "tags": {
+        "layer": "3",
+        "name": "Ruiz Cortines",
+        "network": "Línea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108553595,
+      "lat": 25.6715040,
+      "lon": -100.2985066,
+      "tags": {
+        "layer": "3",
+        "name": "Santa Lucía",
+        "network": "Linea 3",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8475590852,
+      "lat": 25.6861333,
+      "lon": -100.3169039,
+      "tags": {
+        "name": "Cuauhtémoc",
+        "network": "Líneas 1/2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited"
+      }
+    }
+  ]
+}
