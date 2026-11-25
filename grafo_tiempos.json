@@ -1,0 +1,382 @@
+{
+  "Talleres": {
+    "San Bernabé": {
+      "tiempo": 3,
+      "linea": "Línea 1"
+    }
+  },
+  "San Bernabé": {
+    "Talleres": {
+      "tiempo": 3,
+      "linea": "Línea 1"
+    },
+    "Unidad Modelo": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Unidad Modelo": {
+    "San Bernabé": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Aztlán": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Aztlán": {
+    "Unidad Modelo": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Penitenciaría": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Penitenciaría": {
+    "Aztlán": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Alfonso Reyes": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Alfonso Reyes": {
+    "Penitenciaría": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Mitras": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Mitras": {
+    "Alfonso Reyes": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Simón Bolívar": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Simón Bolívar": {
+    "Mitras": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Hospital": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Hospital": {
+    "Simón Bolívar": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Edison": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Edison": {
+    "Hospital": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Central": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Central": {
+    "Edison": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Cuauhtémoc": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Cuauhtémoc": {
+    "Central": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Del Golfo": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "General Anaya": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "Alameda": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "Del Golfo": {
+    "Cuauhtémoc": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Félix U. Gomez": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Félix U. Gomez": {
+    "Del Golfo": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Arena Monterrey": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Colonia Obrera": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    },
+    "Metalúrgicos": {
+      "tiempo": 1,
+      "linea": "Línea 3"
+    }
+  },
+  "Arena Monterrey": {
+    "Félix U. Gomez": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Y Griega": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Y Griega": {
+    "Arena Monterrey": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    },
+    "Eloy Cavazos": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Eloy Cavazos": {
+    "Y Griega": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Lerdo de Tejada": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    }
+  },
+  "Lerdo de Tejada": {
+    "Eloy Cavazos": {
+      "tiempo": 2,
+      "linea": "Línea 1"
+    },
+    "Exposición": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Exposición": {
+    "Lerdo de Tejada": {
+      "tiempo": 1,
+      "linea": "Línea 1"
+    }
+  },
+  "Sendero": {
+    "Santiago Tapia": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "Santiago Tapia": {
+    "Sendero": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "San Nicolás": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    }
+  },
+  "San Nicolás": {
+    "Santiago Tapia": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    },
+    "Anáhuac": {
+      "tiempo": 3,
+      "linea": "Línea 2"
+    }
+  },
+  "Anáhuac": {
+    "San Nicolás": {
+      "tiempo": 3,
+      "linea": "Línea 2"
+    },
+    "Universidad": {
+      "tiempo": 3,
+      "linea": "Línea 2"
+    }
+  },
+  "Universidad": {
+    "Anáhuac": {
+      "tiempo": 3,
+      "linea": "Línea 2"
+    },
+    "Niños Heroes": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    }
+  },
+  "Niños Heroes": {
+    "Universidad": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    },
+    "Regina": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "Regina": {
+    "Niños Heroes": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "General Anaya": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "General Anaya": {
+    "Regina": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "Cuauhtémoc": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "Alameda": {
+    "Cuauhtémoc": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "Fundadores": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    }
+  },
+  "Fundadores": {
+    "Alameda": {
+      "tiempo": 2,
+      "linea": "Línea 2"
+    },
+    "Padre Mier": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    }
+  },
+  "Padre Mier": {
+    "Fundadores": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    },
+    "General I. Zaragoza": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    }
+  },
+  "General I. Zaragoza": {
+    "Padre Mier": {
+      "tiempo": 1,
+      "linea": "Línea 2"
+    },
+    "Santa Lucía": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Santa Lucía": {
+    "General I. Zaragoza": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    },
+    "Colonia Obrera": {
+      "tiempo": 1,
+      "linea": "Línea 3"
+    }
+  },
+  "Colonia Obrera": {
+    "Santa Lucía": {
+      "tiempo": 1,
+      "linea": "Línea 3"
+    },
+    "Félix U. Gomez": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Metalúrgicos": {
+    "Félix U. Gomez": {
+      "tiempo": 1,
+      "linea": "Línea 3"
+    },
+    "Colonia Moderna": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Colonia Moderna": {
+    "Metalúrgicos": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    },
+    "Ruiz Cortines": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Ruiz Cortines": {
+    "Colonia Moderna": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    },
+    "Los Ángeles": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Los Ángeles": {
+    "Ruiz Cortines": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    },
+    "Hospital Metropolitano": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  },
+  "Hospital Metropolitano": {
+    "Los Ángeles": {
+      "tiempo": 2,
+      "linea": "Línea 3"
+    }
+  }
+}
