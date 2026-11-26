@@ -13,7 +13,7 @@ graph = nx.Graph()
 
 for origin, neighbors in time_graph.items():
     for destination, info in neighbors.items():
-        graph.add_edge(origin, destination, weight=info['time'], linea=info['linea'])
+        graph.add_edge(origin, destination, weight=info['tiempo'], linea=info['linea'])
 
 def get_heuristic(node1, node2)-> tuple[list[str], float]:
     return heuristic[node1][node2]
