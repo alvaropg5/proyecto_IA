@@ -1,0 +1,1131 @@
+{
+"version": 0.6,
+"generator": "Overpass API 0.7.62.4 2390de5a",
+"osm3s": {
+"timestamp_osm_base": "2026-11-25T19:26:05Z",
+"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+},
+"elements": [
+
+{
+"type": "way",
+"id": 508513337,
+"center": {
+"lat": 25.7693916,
+"lon": -100.4213728
+},
+"nodes": [
+4978132002,
+4978132003,
+4978132004,
+4978132005,
+4978132006,
+4978132007,
+4978132008,
+4978132009,
+6424426077,
+4978132010,
+4978132011,
+4978132012,
+4978132013,
+4978132014,
+4978132015,
+4978132016,
+4978132017,
+4978132018,
+4978132019,
+4978132020,
+4978132021,
+4978132022,
+4978132002
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Terminal Lincoln",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 651669448,
+"center": {
+"lat": 25.7034582,
+"lon": -100.2694073
+},
+"nodes": [
+6426573991,
+6424428429,
+6429573634,
+6426573993,
+6426573992,
+6429573637,
+6424428430,
+6426573990,
+6426573991
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"internet_access": "yes",
+"internet_access:fee": "no",
+"name": "Churubusco",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702821,
+"center": {
+"lat": 25.7032771,
+"lon": -100.2605735
+},
+"nodes": [
+6143193131,
+6143193093,
+6429573641,
+6143193132,
+6143193133,
+6429573644,
+6143193094,
+6143193134,
+6143193131
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Vidriería",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702825,
+"center": {
+"lat": 25.7030631,
+"lon": -100.2476524
+},
+"nodes": [
+6143193139,
+6143193105,
+6429573651,
+6143193140,
+6143193141,
+6429573653,
+6143193106,
+6143193142,
+6143193139
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Las Américas",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702827,
+"center": {
+"lat": 25.7029148,
+"lon": -100.2390543
+},
+"nodes": [
+6143193143,
+6143193112,
+6429573654,
+6143193144,
+6143193145,
+6429573659,
+6143193113,
+6143193146,
+6143193143
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Central de Carga",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702829,
+"center": {
+"lat": 25.7027557,
+"lon": -100.2302035
+},
+"nodes": [
+6143193147,
+6143193117,
+6429573660,
+6143193148,
+6143193149,
+6429573664,
+6143193118,
+6143193150,
+6143193147
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Tauro",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702832,
+"center": {
+"lat": 25.7025759,
+"lon": -100.2235705
+},
+"nodes": [
+6143193151,
+6143193121,
+6429573665,
+6143193152,
+6143193153,
+6429573667,
+6143193122,
+6143193154,
+6143193151
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Miguel Alemán",
+"network": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 655702834,
+"center": {
+"lat": 25.7030125,
+"lon": -100.2174068
+},
+"nodes": [
+6143193155,
+6143193128,
+7039190645,
+6143193156,
+6143193157,
+6429573672,
+6143193129,
+6143193158,
+6143193155
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Calle Nueva",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656578987,
+"center": {
+"lat": 25.7046728,
+"lon": -100.2083180
+},
+"nodes": [
+6150374019,
+6150373656,
+6429573679,
+6150374020,
+6150374021,
+6429573682,
+6150373657,
+6150374022,
+6150374019
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Ecovía - De La Zanja",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656579006,
+"center": {
+"lat": 25.7073744,
+"lon": -100.2006009
+},
+"nodes": [
+6150374145,
+6150373663,
+6429573683,
+6150374146,
+6150374147,
+6429573686,
+6150373664,
+6150374148,
+6150374145
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Aceros",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656579015,
+"center": {
+"lat": 25.7088351,
+"lon": -100.1944672
+},
+"nodes": [
+6150374177,
+6150373671,
+6429573694,
+6150374178,
+6150374179,
+6429573695,
+6150373672,
+6150374180,
+6150374177
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Guadalajara",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656579021,
+"center": {
+"lat": 25.7090169,
+"lon": -100.1881334
+},
+"nodes": [
+6150374202,
+6150373678,
+6429573701,
+6150374203,
+6150374204,
+6429573703,
+6150373679,
+6150374205,
+6150374202
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "San Miguel",
+"network": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656579046,
+"center": {
+"lat": 25.7055225,
+"lon": -100.1662070
+},
+"nodes": [
+6150374339,
+6150374007,
+6429573724,
+6150374340,
+6150374341,
+6429573728,
+6150374008,
+6150374342,
+6150374339
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Ecovía - Valle Fértil",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656583705,
+"center": {
+"lat": 25.7035918,
+"lon": -100.2786879
+},
+"nodes": [
+6150412192,
+7047448482,
+7047448483,
+6150412193,
+6150412194,
+7047448481,
+6110523769,
+6150412195,
+6150412192
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Coyoacán",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 656583707,
+"center": {
+"lat": 25.7037622,
+"lon": -100.2887430
+},
+"nodes": [
+6150412201,
+6424428435,
+6429573620,
+6150412202,
+6150412203,
+6429573625,
+6424428436,
+6150412204,
+6150412201
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Ruíz Cortinez",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685532116,
+"center": {
+"lat": 25.7596970,
+"lon": -100.4024659
+},
+"nodes": [
+6424428446,
+6110525032,
+6424428459,
+6424428447,
+6424428448,
+6424428460,
+6424428445,
+6424428449,
+6424428446
+],
+"tags": {
+"addr:city": "Monterrey",
+"addr:postcode": "64346",
+"addr:street": "Abraham Lincoln",
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Cumbres",
+"network": "Ecovía",
+"operator": "Ecovia",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685532122,
+"center": {
+"lat": 25.7633905,
+"lon": -100.4075812
+},
+"nodes": [
+6424428452,
+6424428507,
+6424428426,
+6424428453,
+6424428454,
+6424428450,
+6424428451,
+6424428455,
+6424428452
+],
+"tags": {
+"addr:city": "Monterrey",
+"addr:street": "Abraham Lincoln",
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Astros",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685532128,
+"center": {
+"lat": 25.7560547,
+"lon": -100.3974003
+},
+"nodes": [
+6424428469,
+6424428467,
+6424428465,
+6424428470,
+6424428471,
+6426372093,
+6424428468,
+6424428472,
+6424428469
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Plumbago",
+"network": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685700996,
+"center": {
+"lat": 25.7522788,
+"lon": -100.3922678
+},
+"nodes": [
+6426372096,
+6426372094,
+6426372101,
+6426372097,
+6426372098,
+6426372102,
+6426372100,
+6426372099,
+6426372096
+],
+"tags": {
+"addr:city": "Monterrey",
+"addr:street": "Abraham Lincoln",
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Plutarco Elías Calles",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701000,
+"center": {
+"lat": 25.7489321,
+"lon": -100.3875917
+},
+"nodes": [
+6426372103,
+6426372107,
+6429573515,
+6426372104,
+6426372105,
+6429573516,
+6426372108,
+6426372106,
+6426372103
+],
+"tags": {
+"addr:street": "Abraham Lincoln",
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Embotelladora",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701004,
+"center": {
+"lat": 25.7425640,
+"lon": -100.3813871
+},
+"nodes": [
+6426372109,
+6426372113,
+6429573523,
+6426372110,
+7459502368,
+6426372111,
+6429573524,
+6426372114,
+6426372112,
+7459502367,
+6426372109
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Panteón Municipal",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701007,
+"center": {
+"lat": 25.7389235,
+"lon": -100.3781421
+},
+"nodes": [
+6426372115,
+6426372119,
+6429573526,
+6426372116,
+6426372117,
+6429573527,
+6426372120,
+6426372118,
+6426372115
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Cardenal",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701010,
+"center": {
+"lat": 25.7334262,
+"lon": -100.3732093
+},
+"nodes": [
+6426372121,
+6426372125,
+6429573529,
+6426372122,
+6426372123,
+6429573530,
+6412370578,
+6426372124,
+6426372121
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Valle Verde",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701015,
+"center": {
+"lat": 25.7298458,
+"lon": -100.3699944
+},
+"nodes": [
+6426372126,
+6426372130,
+6429573533,
+6426372127,
+8839974404,
+6426372128,
+6429573534,
+6426372131,
+6426372129,
+8839974403,
+6426372126
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Cardiología",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station",
+"roof": "yes"
+}
+},
+{
+"type": "way",
+"id": 685701020,
+"center": {
+"lat": 25.7261138,
+"lon": -100.3666527
+},
+"nodes": [
+6426372132,
+6110525024,
+6429573536,
+6426372133,
+10720177517,
+6426372134,
+6429573537,
+6426372136,
+6426372135,
+10720177520,
+6426372132
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Santa Cecilia",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701023,
+"center": {
+"lat": 25.7235732,
+"lon": -100.3637311
+},
+"nodes": [
+6426372138,
+6426372142,
+6429573542,
+6426372139,
+6426372140,
+6429573544,
+6426372143,
+6426372141,
+6426372138
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Villa Mitras",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701026,
+"center": {
+"lat": 25.7192058,
+"lon": -100.3573554
+},
+"nodes": [
+6426372144,
+6426372148,
+6429573550,
+6426372145,
+6426372146,
+6429573554,
+6426372149,
+6426372147,
+6426372144
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Rangel Frías",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701033,
+"center": {
+"lat": 25.7169538,
+"lon": -100.3538116
+},
+"nodes": [
+6426372150,
+6426372154,
+6429573555,
+6426372151,
+6426372152,
+7015515702,
+6426372155,
+6426372153,
+6426372150
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Tránsito",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701042,
+"center": {
+"lat": 25.7122739,
+"lon": -100.3467507
+},
+"nodes": [
+6426372156,
+6426372160,
+6429573558,
+6426372157,
+6426372158,
+6429573563,
+6426372161,
+6426372159,
+6426372156
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Laredo",
+"network": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701049,
+"center": {
+"lat": 25.7100563,
+"lon": -100.3434079
+},
+"nodes": [
+6426372162,
+6426372163,
+6429573566,
+6110525014,
+6426372164,
+6426372165,
+6426372166,
+6429573564,
+6426372162
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Rodrigo Gómez",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701053,
+"center": {
+"lat": 25.7063121,
+"lon": -100.3424004
+},
+"nodes": [
+7012210709,
+6429573574,
+7012210708,
+6426372171,
+7012210712,
+7012210711,
+6429573571,
+7012210710,
+7012210709
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Mitras",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station",
+"wheelchair": "yes"
+}
+},
+{
+"type": "way",
+"id": 685701061,
+"center": {
+"lat": 25.7046690,
+"lon": -100.3377467
+},
+"nodes": [
+6426372485,
+6426372184,
+6429573578,
+6426372486,
+6426372487,
+6429573582,
+6110525008,
+6426372488,
+6426372485
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Celulosa",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701065,
+"center": {
+"lat": 25.7045538,
+"lon": -100.3327315
+},
+"nodes": [
+6426372492,
+6426372496,
+6429573583,
+6426372493,
+6426372494,
+6429573587,
+6426372497,
+6426372495,
+6426372492
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "20 de Noviembre",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701076,
+"center": {
+"lat": 25.7043674,
+"lon": -100.3221529
+},
+"nodes": [
+6426372528,
+6426372525,
+6429573606,
+6426372529,
+6426372530,
+6429573607,
+6426372532,
+6426372531,
+6426372528
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Hidalgo",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685701079,
+"center": {
+"lat": 25.7043131,
+"lon": -100.3188787
+},
+"nodes": [
+6426372533,
+6426372537,
+6429573608,
+6426372534,
+6426372535,
+6426573744,
+6426372538,
+6426372536,
+6426372533
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Bella Vista",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685719460,
+"center": {
+"lat": 25.7079107,
+"lon": -100.3135563
+},
+"nodes": [
+6426573724,
+6426573725,
+6426573726,
+6426573727,
+6426573728,
+6426573729,
+6426573730,
+6426573731,
+6426573724
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Ecovía Estación Regina",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685719468,
+"center": {
+"lat": 25.7041178,
+"lon": -100.3094076
+},
+"nodes": [
+6426573772,
+6426573776,
+6429573611,
+6426573773,
+6426573774,
+6429573613,
+6426573777,
+6426573775,
+6426573772
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Asarco",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 685719471,
+"center": {
+"lat": 25.7039123,
+"lon": -100.2969514
+},
+"nodes": [
+6426573778,
+6426573782,
+6429573617,
+6426573779,
+6426573780,
+6429573619,
+6426573988,
+6426573781,
+6426573778
+],
+"tags": {
+"amenity": "bus_station",
+"building": "yes",
+"bus": "yes",
+"name": "Cementos",
+"network": "Ecovía",
+"operator": "Ecovía",
+"public_transport": "station"
+}
+},
+{
+"type": "way",
+"id": 1104131662,
+"center": {
+"lat": 25.7035778,
+"lon": -100.1583428
+},
+"nodes": [
+1798891893,
+10103672038,
+10103660462,
+10103660463,
+10103660464,
+10103660465,
+1798891899,
+1798891893
+],
+"tags": {
+"amenity": "bus_station",
+"bus": "yes",
+"name": "Terminal Valle Soleado",
+"network": "Ecovía",
+"operator": "Gobierno de Nuevo León",
+"public_transport": "station"
+}
+}
+
+]
+}
+

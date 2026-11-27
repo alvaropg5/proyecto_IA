@@ -1,0 +1,374 @@
+{
+  "Ecovía: Terminal Lincoln": {
+    "Ecovía: Astros": {
+      "tiempo": 4.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Astros": {
+    "Ecovía: Terminal Lincoln": {
+      "tiempo": 4.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Cumbres": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Cumbres": {
+    "Ecovía: Astros": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Plumbago": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Plumbago": {
+    "Ecovía: Cumbres": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Plutarco Elías Calles": {
+      "tiempo": 2.0,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Plutarco Elías Calles": {
+    "Ecovía: Plumbago": {
+      "tiempo": 2.0,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Embotelladora": {
+      "tiempo": 1.8,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Embotelladora": {
+    "Ecovía: Plutarco Elías Calles": {
+      "tiempo": 1.8,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Panteón Municipal": {
+      "tiempo": 2.8,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Panteón Municipal": {
+    "Ecovía: Embotelladora": {
+      "tiempo": 2.8,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Cardenal": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Cardenal": {
+    "Ecovía: Panteón Municipal": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Valle Verde": {
+      "tiempo": 2.3,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Valle Verde": {
+    "Ecovía: Cardenal": {
+      "tiempo": 2.3,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Cardiología": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Cardiología": {
+    "Ecovía: Valle Verde": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Santa Cecilia": {
+      "tiempo": 1.6,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Santa Cecilia": {
+    "Ecovía: Cardiología": {
+      "tiempo": 1.6,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Villa Mitras": {
+      "tiempo": 1.2,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Villa Mitras": {
+    "Ecovía: Santa Cecilia": {
+      "tiempo": 1.2,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Rangel Frías": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Rangel Frías": {
+    "Ecovía: Villa Mitras": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Tránsito": {
+      "tiempo": 1.3,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Tránsito": {
+    "Ecovía: Rangel Frías": {
+      "tiempo": 1.3,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Laredo": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Laredo": {
+    "Ecovía: Tránsito": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Rodrigo Gómez": {
+      "tiempo": 1.2,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Rodrigo Gómez": {
+    "Ecovía: Laredo": {
+      "tiempo": 1.2,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Mitras": {
+      "tiempo": 1.3,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Mitras": {
+    "Ecovía: Rodrigo Gómez": {
+      "tiempo": 1.3,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Celulosa": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Celulosa": {
+    "Ecovía: Mitras": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: 20 de Noviembre": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: 20 de Noviembre": {
+    "Ecovía: Celulosa": {
+      "tiempo": 1.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Hidalgo": {
+      "tiempo": 3.1,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Hidalgo": {
+    "Ecovía: 20 de Noviembre": {
+      "tiempo": 3.1,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Bella Vista": {
+      "tiempo": 1.0,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Bella Vista": {
+    "Ecovía: Hidalgo": {
+      "tiempo": 1.0,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Asarco": {
+      "tiempo": 2.8,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Asarco": {
+    "Ecovía: Bella Vista": {
+      "tiempo": 2.8,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Cementos": {
+      "tiempo": 3.7,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Cementos": {
+    "Ecovía: Asarco": {
+      "tiempo": 3.7,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Ruíz Cortinez": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Ruíz Cortinez": {
+    "Ecovía: Cementos": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Coyoacán": {
+      "tiempo": 3.0,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Coyoacán": {
+    "Ecovía: Ruíz Cortinez": {
+      "tiempo": 3.0,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Churubusco": {
+      "tiempo": 2.7,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Churubusco": {
+    "Ecovía: Coyoacán": {
+      "tiempo": 2.7,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Vidriería": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Vidriería": {
+    "Ecovía: Churubusco": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Las Américas": {
+      "tiempo": 3.8,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Las Américas": {
+    "Ecovía: Vidriería": {
+      "tiempo": 3.8,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Central de Carga": {
+      "tiempo": 2.5,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Central de Carga": {
+    "Ecovía: Las Américas": {
+      "tiempo": 2.5,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Tauro": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Tauro": {
+    "Ecovía: Central de Carga": {
+      "tiempo": 2.6,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Miguel Alemán": {
+      "tiempo": 2.0,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Miguel Alemán": {
+    "Ecovía: Tauro": {
+      "tiempo": 2.0,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Calle Nueva": {
+      "tiempo": 1.8,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Calle Nueva": {
+    "Ecovía: Miguel Alemán": {
+      "tiempo": 1.8,
+      "linea": "Ecovía"
+    },
+    "Ecovía: De La Zanja": {
+      "tiempo": 2.7,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: De La Zanja": {
+    "Ecovía: Calle Nueva": {
+      "tiempo": 2.7,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Aceros": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Aceros": {
+    "Ecovía: De La Zanja": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Guadalajara": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Guadalajara": {
+    "Ecovía: Aceros": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    },
+    "Ecovía: San Miguel": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: San Miguel": {
+    "Ecovía: Guadalajara": {
+      "tiempo": 1.9,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Valle Fértil": {
+      "tiempo": 6.6,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Valle Fértil": {
+    "Ecovía: San Miguel": {
+      "tiempo": 6.6,
+      "linea": "Ecovía"
+    },
+    "Ecovía: Terminal Valle Soleado": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    }
+  },
+  "Ecovía: Terminal Valle Soleado": {
+    "Ecovía: Valle Fértil": {
+      "tiempo": 2.4,
+      "linea": "Ecovía"
+    }
+  }
+}
