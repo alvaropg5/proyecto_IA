@@ -21,7 +21,7 @@ def get_heuristic(node1, node2)-> tuple[list[str], float]:
 def astar_algorithm(start, goal):
     route = nx.astar_path(graph, start, goal, heuristic=get_heuristic, weight='time')
     total_time = nx.astar_path_length(graph, start, goal, heuristic=get_heuristic, weight='time')
-    # Ajuste del tiempo real considerando que cada estación agrega 0.5 minutos al tiempo total
+    # Adjustment of the actual time, taking into account that each station adds 0.5 minutes to the total time
     real_time = total_time+  0.5 * len(route)  
 
     return route, real_time
