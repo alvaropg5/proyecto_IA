@@ -1,0 +1,39 @@
+origen,destino,origen_nombre,destino_nombre,linea,tiempo_minutos
+28,10,Talleres,San Bernabé,Línea 1,3
+10,9,San Bernabé,Unidad Modelo,Línea 1,2
+9,8,Unidad Modelo,Aztlán,Línea 1,2
+8,7,Aztlán,Penitenciaría,Línea 1,1
+7,6,Penitenciaría,Alfonso Reyes,Línea 1,1
+6,5,Alfonso Reyes,Mitras,Línea 1,2
+5,4,Mitras,Simón Bolívar,Línea 1,1
+4,3,Simón Bolívar,Hospital,Línea 1,1
+3,2,Hospital,Edison,Línea 1,2
+2,1,Edison,Central,Línea 1,2
+1,37,Central,Cuauhtémoc,Línea 1,2
+37,0,Cuauhtémoc,Del Golfo,Línea 1,2
+37,23,Cuauhtémoc,General Anaya,Línea 2,2
+37,19,Cuauhtémoc,Alameda,Línea 2,2
+0,31,Del Golfo,Félix U. Gomez,Línea 1,2
+31,15,Félix U. Gomez,Arena Monterrey,Línea 1,1
+31,30,Félix U. Gomez,Colonia Obrera,Línea 3,2
+31,32,Félix U. Gomez,Metalúrgicos,Línea 3,1
+15,14,Arena Monterrey,Y Griega,Línea 1,1
+14,13,Y Griega,Eloy Cavazos,Línea 1,2
+13,12,Eloy Cavazos,Lerdo de Tejada,Línea 1,2
+12,11,Lerdo de Tejada,Exposición,Línea 1,1
+22,26,Sendero,Santiago Tapia,Línea 2,2
+26,24,Santiago Tapia,San Nicolás,Línea 2,1
+24,20,San Nicolás,Anáhuac,Línea 2,3
+20,27,Anáhuac,Universidad,Línea 2,3
+27,21,Universidad,Niños Heroes,Línea 2,1
+21,25,Niños Heroes,Regina,Línea 2,2
+25,23,Regina,General Anaya,Línea 2,2
+19,18,Alameda,Fundadores,Línea 2,2
+18,17,Fundadores,Padre Mier,Línea 2,1
+17,16,Padre Mier,General I. Zaragoza,Línea 2,1
+16,36,General I. Zaragoza,Santa Lucía,Línea 3,2
+36,30,Santa Lucía,Colonia Obrera,Línea 3,1
+32,33,Metalúrgicos,Colonia Moderna,Línea 3,2
+33,35,Colonia Moderna,Ruiz Cortines,Línea 3,2
+35,29,Ruiz Cortines,Los Ángeles,Línea 3,2
+29,34,Los Ángeles,Hospital Metropolitano,Línea 3,2
