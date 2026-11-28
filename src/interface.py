@@ -2,6 +2,7 @@ from pathlib import Path
 from nicegui import ui
 import pandas as pd
 from astar import astar_algorithm
+from database import login, register_user, update_user
 
 # Ruta automática hacia la carpeta 'data' (sube un nivel desde 'src' y entra en 'data')
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -83,6 +84,100 @@ def actualizar_timeline_drawer(ruta, tiempo):
                     linea_anterior = linea_actual
 
 
+
+usuario_actual = None  # Variable global para almacenar el usuario que ha iniciado sesión
+
+@ui.refreshable
+def panel_usuario():
+    with ui.row().classes('w-full items-center justify-between bg-slate-900 p-2 rounded-lg border-slate-700'):
+        if usuario_actual is None:
+            ui.label('Modo: Invitado').classes('text-xs text-slate-300')
+            ui.button('Iniciar sesión', icon = 'login', on_click=lambda: dialog_login.open())\
+            .props('dense flat').classes('text-amber-400 text-xs')
+        else:
+            ui.label(f'Bienvenido, {usuario_actual.name}').classes('text-xs font-bold text-white truncate')
+            ui.button('Cuenta', icon='manage_accounts', on_click=abrir_cuenta)\
+                .props('dense flat').classes('text-amber-400 text-xs')
+
+def ejecutar_login():
+    global usuario_actual
+    email = (in_login_email.value or '').strip()
+    password = (in_login_password.value or '').strip()
+    if not email or not password:
+        ui.notify('Por favor, complete todos los campos.', type='warning')
+        return
+
+    user = login(email, password)
+    if user:
+        usuario_actual = user
+        panel_usuario.refresh()
+        ui.notify(f'Bienvenido, {user.name}!', type='positive')
+        dialog_login.close()
+    else:
+        ui.notify('Usuario o contraseña incorrectos.', type='negative')
+
+def ejecutar_registro():
+    global usuario_actual
+    nombre = (in_reg_name.value or '').strip()
+    email = (in_reg_email.value or '').strip()
+    password = (in_reg_password.value or '').strip()
+    mobility = in_reg_mobility.value
+
+    if not nombre or not email or not password:
+        ui.notify('Por favor, complete todos los campos.', type='warning')
+        return
+
+    try:
+        user = register_user(nombre, email, password, mobility)
+        usuario_actual = user
+        panel_usuario.refresh()
+        ui.notify(f'Usuario {user.name} registrado exitosamente!', type='positive')
+        dialog_login.close()
+    except ValueError as e:
+        ui.notify(str(e), type='negative')
+
+def continuar_sin_login():
+    global usuario_actual
+    usuario_actual = None
+    panel_usuario.refresh()
+    dialog_login.close()
+
+def abrir_cuenta():
+    edit_name.set_value(usuario_actual.name)
+    edit_email.set_value(usuario_actual.email)
+    edit_password.set_value(usuario_actual.password)
+    edit_mobility.set_value(usuario_actual.reduced_mobility)
+    dialog_cuenta.open()
+
+def guardar_cambio_cuenta():
+    global usuario_actual
+    nombre = (edit_name.value or '').strip()
+    email = (edit_email.value or '').strip()
+    password = (edit_password.value or '').strip()
+    mobility = edit_mobility.value
+
+    if not nombre or not email or not password:
+        ui.notify('Por favor, complete todos los campos.', type='warning')
+        return
+
+    try:
+        actualizado = update_user(usuario_actual.id, nombre, email, password, mobility)
+        if actualizado:
+            usuario_actual = actualizado
+            panel_usuario.refresh()
+            ui.notify('Cuenta actualizada exitosamente!', type='positive')
+            dialog_cuenta.close()
+    except ValueError as e:
+        ui.notify(str(e), type='negative')
+
+def cerrar_sesion():
+    global usuario_actual
+    usuario_actual = None
+    panel_usuario.refresh()
+    dialog_cuenta.close()
+    ui.notify('Sesión cerrada.', type='info')
+
+
 def limpiar_panel():
     global capas_ruta
     select_origen.set_value(None)
@@ -153,11 +248,13 @@ with ui.row().classes('w-full h-screen no-wrap p-4 gap-4 bg-slate-100'):
             ui.label('Metrorrey').classes('text-2xl font-bold text-white')
             ui.label('Buscador óptimo con A*').classes('text-sm text-slate-500')
 
+            panel_usuario()
+
             nombres_estaciones = sorted(coordenadas.keys())
             select_origen = ui.select(nombres_estaciones, label='Origen', with_input=True).props('outlined bg-color="white"').classes('w-full')
             select_destino = ui.select(nombres_estaciones, label='Destino', with_input=True).props('outlined bg-color="white"').classes('w-full')
-            ui.button('Limpiar' , on_click=limpiar_panel).classes('w-full bg-blue-600 text-white')
             ui.button('Trazar ruta óptima', on_click=trazar_ruta_optima).classes('w-full bg-blue-600 text-white')
+            ui.button('Limpiar' , on_click=limpiar_panel).props('outline').classes('w-full text-slate-300')
             
         #Leyenda inferior
         with ui.column().classes('gap-1 text-xs text-slate-600'):
@@ -194,5 +291,52 @@ with ui.row().classes('w-full h-screen no-wrap p-4 gap-4 bg-slate-100'):
                     }
                 ]
             )
+
+
+#Dialogo emergente para iniciar sesion, registarse(Aparece al iniciar la pagina)
+
+with ui.dialog(value=True).props('persistent') as dialog_login:
+    with ui.card().classes('w-96 p-6 gap-3 text-white').style('background-color: #1e293b;'):
+        with ui.tabs().classes('w-full text-slate-300') as tabs:
+            tab_login = ui.tab('Iniciar sesión')
+            tab_registro = ui.tab('Registrarse')
+
+        with ui.tab_panels(tabs, value=tab_login).classes('w-full bg-transparent text-white'):
+            # Pestaña 1: Login
+            with ui.tab_panel(tab_login).classes('p-0 pt-3 gap-3 flex flex-col'):
+                in_login_email = ui.input('Correo electrónico').props('outlined bg-color="white"').classes('w-full')
+                in_login_password = ui.input('Contraseña', password=True, password_toggle_button=True) \
+                    .props('outlined bg-color="white"').classes('w-full')
+                ui.button('Entrar', on_click=ejecutar_login).classes('w-full bg-blue-600 text-white font-bold')
+
+            # Pestaña 2: Registro
+            with ui.tab_panel(tab_registro).classes('p-0 pt-3 gap-3 flex flex-col'):
+                in_reg_name = ui.input('Nombre').props('outlined bg-color="white"').classes('w-full')
+                in_reg_email = ui.input('Correo electrónico').props('outlined bg-color="white"').classes('w-full')
+                in_reg_password = ui.input('Contraseña', password=True, password_toggle_button=True) \
+                    .props('outlined bg-color="white"').classes('w-full')
+                in_reg_mobility = ui.checkbox('Movilidad reducida').classes('text-slate-200')
+                ui.button('Crear cuenta', on_click=ejecutar_registro).classes('w-full bg-emerald-600 text-white font-bold')
+
+        ui.separator().classes('bg-slate-600')
+        ui.button('Continuar como invitado', on_click=continuar_sin_login).props('flat').classes('w-full text-slate-300')
+
+
+# Dialogo emergente para mostrar y editar los datos de la cuenta del usuario
+with ui.dialog() as dialog_cuenta:
+    with ui.card().classes('w-96 p-6 gap-3 text-white').style('background-color: #1e293b;'):
+        ui.label('Mi Cuenta').classes('text-2xl font-bold text-white')
+        ui.label('Consulta o edita tus datos').classes('text-xs text-slate-400 -mt-2')
+
+        edit_name = ui.input('Nombre').props('outlined bg-color="white"').classes('w-full')
+        edit_email = ui.input('Correo electrónico').props('outlined bg-color="white"').classes('w-full')
+        edit_password = ui.input('Contraseña', password=True, password_toggle_button=True) \
+            .props('outlined bg-color="white"').classes('w-full')
+        edit_mobility = ui.checkbox('Movilidad reducida').classes('text-slate-200')
+
+        ui.button('Guardar cambios', on_click=guardar_cambio_cuenta).classes('w-full bg-blue-600 text-white font-bold')
+        with ui.row().classes('w-full justify-between mt-1'):
+            ui.button('Cerrar sesión', on_click=cerrar_sesion).props('flat').classes('text-red-400 text-xs')
+            ui.button('Cerrar', on_click=dialog_cuenta.close).props('flat').classes('text-slate-300 text-xs')
 
 ui.run(port=8080)
